@@ -80,30 +80,30 @@ context.fillRect(187, 70, 25, 10);
 
 //les oreilles du reveil resp gauche et droite
 context.beginPath();
-context.lineWidth = "7";
-context.strokeStyle = "rgb(0,0,0)";
+context.lineWidth = "10";
+context.strokeStyle = "black";
 context.moveTo(134, 112);
 context.lineTo(129, 104);
 context.stroke();
 
 context.beginPath();
-context.lineWidth = "7";
-context.strokeStyle = "rgb(0,0,0)";
+context.lineWidth = "10";
+context.strokeStyle = "black";
 context.moveTo(270, 115);
 context.lineTo(275, 108);
 context.stroke();
 
 context.beginPath();
-context.lineWidth = "7";
+context.lineWidth = "10";
 context.rotate(-Math.PI / 5);
-context.fillStyle = "rgb(0,0,0)";
+context.fillStyle = "black";
 context.arc(42, 165, 45, Math.PI, 0);
 context.fill();
 
 context.beginPath();
-context.lineWidth = "7";
+context.lineWidth = "10";
 context.rotate(Math.PI / 2.5);
-context.fillStyle = "rgb(0,0,0)";
+context.fillStyle = "black";
 context.arc(285, -70, 45, Math.PI, 0);
 context.fill();
 
